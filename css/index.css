@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.headerTop{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerTopContainer{
+    height: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+.topHeaderRight h5{
+    font-size: 9px;
+    word-spacing: 20px;
+}
+.topHeaderLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 40%;
+}
+.topHeaderLeft input{
+    width: 30%;
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px;
+    border: 2px solid rgba(7, 7, 7, 0.636);
+}
+.topHeaderLeft ul{
+    width: 10%;
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(7, 7, 7, 0.636);
+    height: 35px;
+    margin-right: 5px;
+}
+.topHeaderLeft button{
+    width: 20%;
+    height: 35px;
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header{
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    height: 8vh;
+}
+.short-display-line{
+    display: none;
+}
+nav{
+    display: flex;
+    text-align: center;
+    align-items: center;  
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 40px;
+}
+nav ul li a{
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: none;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    color: blueviolet;
+}
+
+
